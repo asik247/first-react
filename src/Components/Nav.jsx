@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Nav = () => {
     return (
         <>
@@ -33,7 +32,7 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn">LogOut</a>
                 </div>
 
             </div>
@@ -76,9 +75,7 @@ const Nav = () => {
                 </div>
                 <div className="card bg-base-100 w-96 shadow-sm">
                     <figure>
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes" />
+                      
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
