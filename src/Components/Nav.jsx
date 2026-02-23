@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
     return (
         <>
-        {/* nav code start here now */}
+            {/* nav code start here now */}
             <div className="navbar bg-base-100 shadow-sm ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -14,34 +14,22 @@ const Nav = () => {
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><a>Home</a></li>
-                            <li>
-                                <a>About</a>
-                                <ul className="p-2">
-                                    <li><a>Project</a></li>
-                                    <li><a>Contact</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a>About</a> </li>
+                            <li><a>Project</a></li>
+                            <li><a>Contact</a></li>
+
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">Ar.Rimon</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
-                        <li>
-                            <details>
-                                <summary>About</summary>
-                                <ul className="p-2 bg-base-100 w-40 z-1">
-                                    <li><a>Project</a></li>
-                                    <li><a>Contact</a></li>
-                                </ul>
-                            </details>
-                        </li>
+                        <li><a>About</a> </li>
+                        <li><a>Project</a></li>
                         <li><a>Contact</a></li>
-                        <li><a>Phone</a></li>
-                        <li><a>E-mail</a></li>
-                        
+
+
                     </ul>
                 </div>
                 <div className="navbar-end">
@@ -49,7 +37,7 @@ const Nav = () => {
                 </div>
 
             </div>
-        {/* hero area code here now */}
+            {/* hero area code here now */}
             <div className="hero bg-base-200 min-h-screen mb-30">
                 <div className="hero-content flex-col lg:flex-row">
                     <img
@@ -67,7 +55,7 @@ const Nav = () => {
                 </div>
             </div>
             {/* Card All code here now */}
-            <div className='grid grid-cols-3 gap-4 w-11/12 mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 w-11/12 mx-auto'>
                 <div className="card bg-base-100 w-96 shadow-sm">
                     <figure>
                         <img
